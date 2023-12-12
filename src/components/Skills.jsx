@@ -12,7 +12,7 @@ const Skills = () => {
     return (
         <div className="min-h-screen space-y-5 mx-5">
             <h1 className="text-5xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 via-red-600 to-pink-600">Skills</h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 bg-gray-100 p-5">
                 {/* 1 */}
                 <div className="border p-5 rounded-md shadow-md hover:shadow-2xl duration-500 space-y-4 bg-white">
                     <img src={html} alt="" className="h-32 w-32 mx-auto" />

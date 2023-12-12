@@ -11,7 +11,7 @@ const Banner = () => {
   });
 
   return (
-    <div className="flex justify-around items-center min-h-screen p-5">
+    <div className="flex justify-around items-center min-h-screen p-5 border bg-gray-100">
       <div className="space-y-5">
         <h1 className="text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 via-red-600 to-pink-600 drop-shadow">
           Hello I am <br /> Rafiul Islam

@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className="my-10">
             <h2 className="mb-5 text-5xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 via-red-600 to-pink-600">Projects</h2>
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 bg-gray-100 p-5">
             <div className="space-y-5 border p-5 hover:shadow-2xl duration-500">
                 <img src={education} alt="" className="w-full h-52"/>
                 <div className="flex justify-around">
