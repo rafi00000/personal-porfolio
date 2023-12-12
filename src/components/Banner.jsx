@@ -9,8 +9,9 @@ const Banner = () => {
     deleteSpeed: 50,
     typeSpeed: 200,
   });
+
   return (
-    <div className="flex justify-around items-center min-h-screen">
+    <div className="flex justify-around items-center min-h-screen p-5">
       <div className="space-y-5">
         <h1 className="text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 via-red-600 to-pink-600 drop-shadow">
           Hello I am <br /> Rafiul Islam
@@ -24,7 +25,7 @@ const Banner = () => {
         </a>
       </div>
 
-      <div>
+      <div className="hidden md:flex">
         <img
           src="https://i.ibb.co/fHRYps4/my-pic.jpg"
           alt=""
