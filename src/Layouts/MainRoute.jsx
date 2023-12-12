@@ -1,14 +1,14 @@
 import Navbar from './../components/Navbar';
 import Banner from './../components/Banner';
+import Skills from './../components/Skills';
 
 const MainRoute = () => {
 
     return (
-        <div className="container mx-auto relative bg-gradient-to-r ">
-            <div className='mb-16'>
+        <div className="container mx-auto relative primary-bg">
             <Navbar></Navbar>
-            </div>
             <Banner></Banner>
+            <Skills></Skills>
         </div>
     );
 };
