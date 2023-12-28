@@ -17,10 +17,10 @@ const Banner = () => {
           Hello I am <br /> Rafiul Islam
         </h1>
         <h2 className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 via-red-600 to-pink-600 text-2xl">
-          {text}
+          I am {text}
           <Cursor cursorColor="red" />
         </h2>
-        <a href="https://drive.google.com/uc?id=1Mw5FFSFB8XKgklnRPuIjkXBpNL5Gaafg&export=download" className="btn border-red-500 bg-white hover:bg-red-600 hover:text-white"> 
+        <a href="https://drive.google.com/uc?id=1ARG7vInVqe8uG5CXI_AvXCr0TanxhheT&export=download" className="btn border-red-500 bg-white hover:bg-red-600 hover:text-white"> 
           Download CV
         </a>
       </div>
